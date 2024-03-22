@@ -1,0 +1,49 @@
+/*Header*/
+
+.menu {
+    flex-grow: 0;
+}
+.menu-ul {
+    column-gap: 10px;
+    align-items: center;
+}
+.menu {
+	flex-grow: 0;
+	ul {
+		li {
+			a {
+				color: darkgreen;
+				font-style: italic;
+				font-size: 20px;
+				text-decoration: none;
+				&:hover {
+					color: rgb(0, 0, 0);
+					font-style: italic;
+					font-size: 20px;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+.menu-burger {
+    background-image: url(./../assets/img/menu-burger.svg);
+}
+
+.menu-button {
+    border: none;
+}
+
+.menu-button:focus {
+    box-shadow: none;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.sello {
+    width: 100px;
+}
+

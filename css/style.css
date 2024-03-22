@@ -1,27 +1,28 @@
 
-/* Reset
+/* Reset {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+} */
 
-*/
 
-@font-face {
+/*Import tipografias*/
+/* @font-face {
     font-family: 'univers';
-    src: url(./../tipografia/universLTS.ttf);
+    src: url(./../assets/tipografia/universLTS.ttf);
 }
 @font-face {
-    font-family: 'stemple'
-    src: url(./../tipografia/stemple.ttf);
-}
+    font-family: 'stemple';
+    src: url(./../assets/tipografia/stemple.ttf);
+} 
 
 
 body{
     background-color: rgb(255, 255, 255);
-}
+} */
 
 /*Tipografias*/
-h1{
+/* h1{
     color: green;
     font-family: 'stemple';
     font-size: 3rem;
@@ -40,11 +41,18 @@ h3{
 p {
     font-family: 'univers';
     font-size: 2rem;
+} 
+
+.imagen-tapa {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+*/
 
 /*Header*/
 
-.menu {
+/* .menu {
     flex-grow: 0;
 }
 .menu-ul {
@@ -66,7 +74,7 @@ p {
 }
 
 .menu-burger {
-    background-image: url(./../img/menu-burger.svg);
+    background-image: url(./../assets/img/menu-burger.svg);
 }
 
 .menu-button {
@@ -81,16 +89,19 @@ p {
     padding: 0;
 }
 
+.sello {
+    width: 100px;
+} */
 
 /* Página Productos*/
-.imagen-producto {
+/* .imagen-producto {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 
 /* Página Galeria */
-.imagen{
+/* .imagen{
 width: 100%;
 }
 
@@ -147,33 +158,88 @@ overflow: hidden;
 
 .img-8 {
     grid-area: img8;
+} */
+
+/*Página Nosotros*/
+
+/* .perfiles {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+/*Página Contacto*/
+
+/* .contactos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
 }
 
+.imagen-contacto {
+    width: 100px;
+    display: flex;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+#mensaje {
+    width: 200%;
+    margin-bottom: 1rem;
+}
+.input {
+    align-self: center;
+    margin-left: 10rem;
+} */
 
 /*Footer*/
 
-footer {
+/* footer {
     width: 100%;
     margin-top: 2rem;
-    background-image: url(./../img/fondo-gradiente.svg);
+    background-image: url(./../assets/img/fondo-gradiente.svg);
     background-repeat: no-repeat;
     background-size: cover;
-}
+}  */
+
 
     
 /* Query para navbar Bootstrap */
-@media screen and (max-width: 991px) {
-.menu {
-    position: absolute;
-    top: 350px;
+/* @media screen and (max-width: 991px) {
+
+    .menu {
     background-color: aliceblue;
     width: 100%;
 }
+
 }
+
+@media screen and (max-width: 397px){
+    .menu {
+        margin-top: 25px;
+    }
+} */
 
 /* Query para Galeria */
 
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){
     .grid-galeria {
         grid-template-columns: auto;
         grid-template-rows: auto;
@@ -260,7 +326,9 @@ footer {
     
     .img-8 {
         grid-area: img8;
-    }
+    } 
+    
+    }*/
 
 
 

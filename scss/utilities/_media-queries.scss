@@ -1,0 +1,108 @@
+/* Query para navbar Bootstrap */
+@media screen and (max-width: 991px) {
+
+    .menu {
+    background-color: aliceblue;
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width: 397px){
+    .menu {
+        margin-top: 25px;
+    }
+}
+
+/* Query para Galeria */
+
+@media screen and (max-width: 1024px){
+    .grid-galeria {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "img1 img2"
+        "img3 img4"
+        "img5 img5"
+        "img6 img7"
+        "img8 img8";
+    }
+    
+    .img-1 {
+        grid-area: img1;
+    }
+    .img-2 {
+        grid-area: img2;
+    }
+    
+    .img-3 {
+        grid-area: img3;
+    }
+    
+    .img-4 {
+        grid-area: img4;
+    }
+    
+    .img-5 {
+        grid-area: img5;
+    }
+    .img-6 {
+        grid-area: img6;
+    }
+    
+    .img-7 {
+        grid-area: img7;
+    }
+    
+    .img-8 {
+        grid-area: img8;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .grid-galeria {
+        grid-template-columns: auto;
+        grid-template-rows: auto; 
+        grid-template-areas:
+        "img1"
+        "img2"
+        "img3" 
+        "img4"
+        "img5" 
+        "img6"
+        "img6"
+        "img7"
+        "img8";
+    }
+    
+    
+    .img-1 {
+        grid-area: img1;
+    }
+    .img-2 {
+        grid-area: img2;
+    }
+    
+    .img-3 {
+        grid-area: img3;
+    }
+    
+    .img-4 {
+        grid-area: img4;
+    }
+    
+    .img-5 {
+        grid-area: img5;
+    }
+    .img-6 {
+        grid-area: img6;
+    }
+    
+    .img-7 {
+        grid-area: img7;
+    }
+    
+    .img-8 {
+        grid-area: img8;
+    }
+    }

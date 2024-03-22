@@ -1,0 +1,42 @@
+/*Página Contacto*/
+
+.contactos {
+    @include flex (row, wrap, center, flex-start, center)
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    // justify-content: center;
+    // align-items: flex-start;
+    // align-content: center;
+}
+
+.imagen-contacto {
+    width: 100px;
+    display: flex;
+}
+
+.formulario {
+    @include flex (row, wrap, center, flex-start, center)
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: wrap;
+    // justify-content: center;
+    // align-items: flex-start;
+    // align-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+#mensaje {
+    width: 200%;
+    margin-bottom: 1rem;
+}
+.input {
+    align-self: center;
+    margin-left: 10rem;
+}

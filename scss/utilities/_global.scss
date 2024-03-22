@@ -1,0 +1,43 @@
+
+/*Import tipografias*/
+@font-face {
+    font-family: 'univers';
+    src: url(./../assets/tipografia/universLTS.ttf);
+}
+@font-face {
+    font-family: 'stemple';
+    src: url(./../assets/tipografia/stemple.ttf);
+} 
+
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+/*Tipografias*/
+h1{
+    color: green;
+    font-family: 'stemple';
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    font-family: 'stemple';
+    font-style: italic;
+}
+
+h3{
+    font-family: 'stemple';
+    text-align: center;
+}
+
+p {
+    font-family: 'univers';
+    font-size: 2rem;
+}
+
+.imagen-tapa {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
